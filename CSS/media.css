@@ -1,0 +1,115 @@
+/* HEADER */
+@media only screen and (max-width: 800px) {
+  .qwerty{
+    background-image: url("../Rasmlar/Group\ 4.png");
+    background-repeat: no-repeat;
+    background-position: calc(50%) 713px;
+  }
+  
+  .header-logo-img {
+    margin-right: 40px;
+    width: 128px;
+    height: 32px;
+  }
+
+  .header-box {
+    padding-top: 0;
+    padding-top: 64px;
+    padding-bottom: 0;
+    padding-bottom: 112px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .qwerty{
+    background-image: url("../Rasmlar/Group\ 4.png");
+    background-repeat: no-repeat;
+    background-position: calc(50%) 630px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .header-box {
+    padding-bottom: 0;
+    padding-bottom: 80px;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .header-lnk {
+    display: none;
+  }
+
+  .box-link {
+    display: block;
+  }
+
+}
+
+/* HEADER2 */
+@media only screen and (max-width: 976px) {
+  .header-little-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-title {
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  .header-text {
+    text-align: center;
+  }
+
+  .header-text::before {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-title {
+    width: 350px;
+    font-size: 64px;
+    line-height: 56px;
+    margin-bottom: 24px;
+  }
+
+  .header-text {
+    /* width: 600px; */
+    font-size: 15px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header-title {
+    width: 200px;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 0;
+    margin-bottom: 18px;
+  }
+
+  .header-text {
+    width: 327px;
+  }
+
+  .header-text {
+    font-size: 15px;
+    line-height: 28px;
+    padding-bottom: 0;
+  }
+
+  .header-little-inner {
+    padding-bottom: 197px;
+
+  }
+}
+
+
+
