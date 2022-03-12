@@ -29,6 +29,12 @@
 }
 
 @media only screen and (max-width: 540px) {
+  .qwerty{
+    background-image: url("../Rasmlar/Group\ 4.png");
+    background-repeat: no-repeat;
+    background-position: calc(50%) 574px;
+  }
+
   .header-box {
     padding-bottom: 0;
     padding-bottom: 80px;
@@ -87,6 +93,12 @@
 }
 
 @media only screen and (max-width: 450px) {
+  .qwerty{
+    background-image: url("../Rasmlar/Group\ 4.png");
+    background-repeat: no-repeat;
+    background-position: calc(50%) 483px;
+  }
+
   .header-title {
     width: 200px;
     font-size: 40px;
@@ -111,5 +123,19 @@
   }
 }
 
+@media only screen and (max-width: 1130px) {
+  .hero-inner {
+    flex-direction: column;
+    background-image: url("../Rasmlar/experienced.svg"),
+                      url("../Rasmlar/easy-foto.svg"),
+                      url("../Rasmlar/enhanced-foto.svg");
+    background-repeat: no-repeat;
+    background-position: 480px 198px, 480px 324px, 480px 450px ;
+  }
+  .hero-title {
+    width: 445px;
+    text-align: center;
+  }
+}
 
 
